@@ -1,0 +1,3 @@
+<i *ngIf="iconName" class="fas" [ngClass]="getIconCssClass()"></i>
+
+<img *ngIf="iconPath" [ngClass]="getImgCssClass()" src="{{ iconPath }}" />

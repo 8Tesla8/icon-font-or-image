@@ -5,10 +5,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppIconComponent } from './app-icon/app-icon.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppIconComponent,
   ],
   imports: [
     BrowserModule,

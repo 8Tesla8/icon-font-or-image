@@ -1,0 +1,42 @@
+.text-black{
+    color:#000000;
+}
+.text-red{
+    color:#FF0000;
+}
+.text-green{
+    color: #9EBA47;
+}
+
+.text-size-small{
+    font-size: 24px;
+}
+
+.text-size-small{
+    font-size: 12px;
+}
+.text-size-big{
+    font-size: 20px;
+}
+
+
+// change color of image by using filter, picture must be black
+// https://codepen.io/sosuke/pen/Pjoqqp
+
+.img-black{
+    filter: invert(0%) sepia(11%) saturate(1598%) hue-rotate(297deg) brightness(92%) contrast(102%);
+}
+.img-red{
+    filter: invert(22%) sepia(100%) saturate(7108%) hue-rotate(2deg) brightness(98%) contrast(118%);
+}
+.img-green {
+    filter: invert(69%) sepia(17%) saturate(1193%) hue-rotate(34deg) brightness(94%) contrast(99%);
+}
+.img-size-small{
+    width: 12px;
+    height: 12px;
+}
+.img-size-big{
+    width: 24px;
+    height: 24px;
+}
